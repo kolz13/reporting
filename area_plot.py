@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as tkr
 import numpy as np
 
-def create_area_graph(graph_data,title='30 Day Rolling Traffic',ytitle='30 Day Rolling Traffic'):
+def create_area_plot(graph_data,title='30 Day Rolling Traffic',ytitle='30 Day Rolling Traffic'):
   '''
   Create an area plot graph from time series data.
   :param graph_data: A pandas dataframe of time series data.
